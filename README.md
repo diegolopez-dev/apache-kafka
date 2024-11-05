@@ -11,15 +11,15 @@ Este proyecto demuestra la comunicación entre dos microservicios Spring Boot ut
 ## Configuración
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/tu-usuario/microservicios-kafka.git](https://github.com/tu-usuario/microservicios-kafka.git)
+   git clone https://github.com/diegolopez-dev/apache-kafka.git
 2. Configurar Kafka:
   Instala y configura un clúster de Kafka.
 3. Configurar las propiedades de los microservicios:
   Edita los archivos application.properties de producer y consumer para configurar la conexión a Kafka, el tópico, etc.
 
 ## Flujo de Trabajo
-* Productor: Envía mensajes en formato JSON al tópico de Kafka.
-* Consumidor: Lee los mensajes del tópico y realiza las acciones correspondientes.
+* Producer: Envía mensajes en formato JSON al tópico de Kafka.
+* Consumer: Lee los mensajes del tópico y realiza las acciones correspondientes.
 * Ejemplo de mensaje
 {
   "mensaje": "Hola desde el productor",
